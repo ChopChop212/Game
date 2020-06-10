@@ -24,9 +24,9 @@ while usernum != num1:
 		print("Your guess is too low\nTRY AGAIN!!")
 		print("You have " + str(count) + " chances remaining")
 		usernum = int(input("Enter a number: "))
-	if usernum == num1:
-		print(Fore.MAGENTA + "You win!!! :D".upper())
-		quit()
+if usernum == num1:
+	print(Fore.MAGENTA + "You win!!! :D".upper())
+	quit()
 
 print(Fore.MAGENTA + "Out of chances\nYou lose!!".upper())
 
